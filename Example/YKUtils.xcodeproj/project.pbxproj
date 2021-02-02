@@ -29,6 +29,32 @@
 
 /* Begin PBXFileReference section */
 		17521EFFCE1EBE475EC32FF6 /* Pods-YKUtils_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YKUtils_Example.debug.xcconfig"; path = "Target Support Files/Pods-YKUtils_Example/Pods-YKUtils_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		3B7256D225C988F000853C43 /* Extension+Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+Double.swift"; sourceTree = "<group>"; };
+		3B7256D325C988F000853C43 /* Extension+UIFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UIFont.swift"; sourceTree = "<group>"; };
+		3B7256D425C988F000853C43 /* Extension+UIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UIImage.swift"; sourceTree = "<group>"; };
+		3B7256D525C988F000853C43 /* Extension+NSRange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+NSRange.swift"; sourceTree = "<group>"; };
+		3B7256D625C988F000853C43 /* Extension+NSMutableAttributedString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+NSMutableAttributedString.swift"; sourceTree = "<group>"; };
+		3B7256D725C988F000853C43 /* Extension+UIBarButtonItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UIBarButtonItem.swift"; sourceTree = "<group>"; };
+		3B7256D825C988F000853C43 /* CALayer+Animation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CALayer+Animation.swift"; sourceTree = "<group>"; };
+		3B7256D925C988F000853C43 /* Extension+UITableview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UITableview.swift"; sourceTree = "<group>"; };
+		3B7256DA25C988F000853C43 /* Extension+Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+Array.swift"; sourceTree = "<group>"; };
+		3B7256DB25C988F000853C43 /* Extension+CGFloat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+CGFloat.swift"; sourceTree = "<group>"; };
+		3B7256DC25C988F000853C43 /* Extension+UILabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UILabel.swift"; sourceTree = "<group>"; };
+		3B7256DD25C988F000853C43 /* Extension+UIDevice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UIDevice.swift"; sourceTree = "<group>"; };
+		3B7256DE25C988F000853C43 /* Extension+UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UIColor.swift"; sourceTree = "<group>"; };
+		3B7256DF25C988F000853C43 /* Extension+URL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+URL.swift"; sourceTree = "<group>"; };
+		3B7256E025C988F000853C43 /* Extension+Int.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+Int.swift"; sourceTree = "<group>"; };
+		3B7256E125C988F000853C43 /* Extension+UIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UIButton.swift"; sourceTree = "<group>"; };
+		3B7256E225C988F000853C43 /* Extension+NSAttributedString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+NSAttributedString.swift"; sourceTree = "<group>"; };
+		3B7256E325C988F000853C43 /* UIView+CornerRadius.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+CornerRadius.swift"; sourceTree = "<group>"; };
+		3B7256E425C988F000853C43 /* Extension+UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UIView.swift"; sourceTree = "<group>"; };
+		3B7256E525C988F000853C43 /* extensionUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extensionUIViewController.swift; sourceTree = "<group>"; };
+		3B7256E625C988F000853C43 /* Extentsion+String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extentsion+String.swift"; sourceTree = "<group>"; };
+		3B7256E725C988F000853C43 /* Extension+Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+Date.swift"; sourceTree = "<group>"; };
+		3B7256E825C988F000853C43 /* .gitkeep */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		3B7256E925C988F000853C43 /* ReplaceMe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
+		3B7256EC25C988F000853C43 /* ConstDevice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstDevice.swift; sourceTree = "<group>"; };
+		3B7256ED25C988F000853C43 /* Const+Function.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Const+Function.swift"; sourceTree = "<group>"; };
 		42B91EB0DF1E806560FF1CCE /* Pods-YKUtils_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YKUtils_Tests.release.xcconfig"; path = "Target Support Files/Pods-YKUtils_Tests/Pods-YKUtils_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		46EBAD249B9BA6CD34511302 /* Pods_YKUtils_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YKUtils_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* YKUtils_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YKUtils_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -41,11 +67,11 @@
 		607FACE51AFB9204008FA782 /* YKUtils_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YKUtils_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		763EBE7DA926249E7C320D0C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		936E23B1538F29FE01753D9B /* YKUtils.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = YKUtils.podspec; path = ../YKUtils.podspec; sourceTree = "<group>"; };
+		763EBE7DA926249E7C320D0C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		936E23B1538F29FE01753D9B /* YKUtils.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YKUtils.podspec; path = ../YKUtils.podspec; sourceTree = "<group>"; };
 		D23D17944646B175436D5D6E /* Pods-YKUtils_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YKUtils_Example.release.xcconfig"; path = "Target Support Files/Pods-YKUtils_Example/Pods-YKUtils_Example.release.xcconfig"; sourceTree = "<group>"; };
 		D6E4D1CEDDB2BC4ED4820041 /* Pods_YKUtils_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YKUtils_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F496734705CF06B5A1CA4AC0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		F496734705CF06B5A1CA4AC0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		FB010430CBED3DFB85C755DE /* Pods-YKUtils_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YKUtils_Tests.debug.xcconfig"; path = "Target Support Files/Pods-YKUtils_Tests/Pods-YKUtils_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -69,6 +95,71 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3B72565E25C9861700853C43 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		3B7256D025C988F000853C43 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				3B7256D125C988F000853C43 /* Extension */,
+				3B7256E825C988F000853C43 /* .gitkeep */,
+				3B7256E925C988F000853C43 /* ReplaceMe.swift */,
+				3B7256EA25C988F000853C43 /* YKMacro */,
+			);
+			name = Classes;
+			path = ../YKUtils/Classes;
+			sourceTree = "<group>";
+		};
+		3B7256D125C988F000853C43 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				3B7256D225C988F000853C43 /* Extension+Double.swift */,
+				3B7256D325C988F000853C43 /* Extension+UIFont.swift */,
+				3B7256D425C988F000853C43 /* Extension+UIImage.swift */,
+				3B7256D525C988F000853C43 /* Extension+NSRange.swift */,
+				3B7256D625C988F000853C43 /* Extension+NSMutableAttributedString.swift */,
+				3B7256D725C988F000853C43 /* Extension+UIBarButtonItem.swift */,
+				3B7256D825C988F000853C43 /* CALayer+Animation.swift */,
+				3B7256D925C988F000853C43 /* Extension+UITableview.swift */,
+				3B7256DA25C988F000853C43 /* Extension+Array.swift */,
+				3B7256DB25C988F000853C43 /* Extension+CGFloat.swift */,
+				3B7256DC25C988F000853C43 /* Extension+UILabel.swift */,
+				3B7256DD25C988F000853C43 /* Extension+UIDevice.swift */,
+				3B7256DE25C988F000853C43 /* Extension+UIColor.swift */,
+				3B7256DF25C988F000853C43 /* Extension+URL.swift */,
+				3B7256E025C988F000853C43 /* Extension+Int.swift */,
+				3B7256E125C988F000853C43 /* Extension+UIButton.swift */,
+				3B7256E225C988F000853C43 /* Extension+NSAttributedString.swift */,
+				3B7256E325C988F000853C43 /* UIView+CornerRadius.swift */,
+				3B7256E425C988F000853C43 /* Extension+UIView.swift */,
+				3B7256E525C988F000853C43 /* extensionUIViewController.swift */,
+				3B7256E625C988F000853C43 /* Extentsion+String.swift */,
+				3B7256E725C988F000853C43 /* Extension+Date.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		3B7256EA25C988F000853C43 /* YKMacro */ = {
+			isa = PBXGroup;
+			children = (
+				3B7256EB25C988F000853C43 /* Const */,
+			);
+			path = YKMacro;
+			sourceTree = "<group>";
+		};
+		3B7256EB25C988F000853C43 /* Const */ = {
+			isa = PBXGroup;
+			children = (
+				3B7256EC25C988F000853C43 /* ConstDevice.swift */,
+				3B7256ED25C988F000853C43 /* Const+Function.swift */,
+			);
+			path = Const;
+			sourceTree = "<group>";
+		};
 		59171028A5E49EC0DC102215 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -77,7 +168,6 @@
 				FB010430CBED3DFB85C755DE /* Pods-YKUtils_Tests.debug.xcconfig */,
 				42B91EB0DF1E806560FF1CCE /* Pods-YKUtils_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -144,6 +234,8 @@
 		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
+				3B7256D025C988F000853C43 /* Classes */,
+				3B72565E25C9861700853C43 /* Assets */,
 				936E23B1538F29FE01753D9B /* YKUtils.podspec */,
 				763EBE7DA926249E7C320D0C /* README.md */,
 				F496734705CF06B5A1CA4AC0 /* LICENSE */,
@@ -227,6 +319,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

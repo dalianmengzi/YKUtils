@@ -7,11 +7,17 @@
 //
 
 import UIKit
-
+import YKUtils
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        let ss = "ss";
+        let s = 1;
+    
+        if(ss.isPurnInt()){
+            
+        }
         // Do any additional setup after loading the view, typically from a nib.
     }
 

@@ -1,6 +1,6 @@
 {
   "name": "YKUtils",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "A short description of YKUtils.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/惊蛰/YKUtils",
@@ -12,8 +12,8 @@
     "惊蛰": "907936564@qq.com"
   },
   "source": {
-    "git": "https://github.com/惊蛰/YKUtils.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/dalianmengzi/YKUtils.git",
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "9.0"

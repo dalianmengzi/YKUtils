@@ -101,13 +101,8 @@ public extension UIImage{
     }
     
     //MARK: - 颜色生成图片
-    class func produceImageWithColor(color:UIColor)->UIImage{
-        var rect = CGRect()
-        if kIsIpad{
-            rect = CGRect.init(x: 0, y: 0, width: kScreenWidth, height: kScreenHeight)
-        }else{
-            rect = CGRect.init(x: 0, y: 0, width: 800, height: 1000)
-        }
+    class func produceImageWithColor(color:UIColor,rect:CGRect)->UIImage{
+       
         UIGraphicsBeginImageContext(rect.size)
         let context = UIGraphicsGetCurrentContext()
         context!.setFillColor(color.cgColor)
@@ -155,8 +150,8 @@ public extension UIImage{
         //生成视频截图
         let generator = AVAssetImageGenerator(asset: avAsset)
         generator.appliesPreferredTrackTransform = true
-    let time = CMTimeMakeWithSeconds(0.0,600)
-    var actualTime:CMTime = CMTimeMake(0,0)
+    let time = CMTimeMakeWithSeconds(0.0,preferredTimescale: 600)
+    var actualTime:CMTime = CMTimeMake(value: 0,timescale: 0)
         if let imageRef:CGImage = try? generator.copyCGImage(at: time, actualTime: &actualTime){
             let frameImg = UIImage.init(cgImage: imageRef)
             return frameImg

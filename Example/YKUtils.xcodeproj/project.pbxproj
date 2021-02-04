@@ -53,8 +53,7 @@
 		3B7256E725C988F000853C43 /* Extension+Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+Date.swift"; sourceTree = "<group>"; };
 		3B7256E825C988F000853C43 /* .gitkeep */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		3B7256E925C988F000853C43 /* ReplaceMe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
-		3B7256EC25C988F000853C43 /* ConstDevice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstDevice.swift; sourceTree = "<group>"; };
-		3B7256ED25C988F000853C43 /* Const+Function.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Const+Function.swift"; sourceTree = "<group>"; };
+		3BA5D4F525CB994700292A8A /* Extension+CAShapeLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+CAShapeLayer.swift"; sourceTree = "<group>"; };
 		42B91EB0DF1E806560FF1CCE /* Pods-YKUtils_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YKUtils_Tests.release.xcconfig"; path = "Target Support Files/Pods-YKUtils_Tests/Pods-YKUtils_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		46EBAD249B9BA6CD34511302 /* Pods_YKUtils_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YKUtils_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* YKUtils_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YKUtils_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -108,7 +107,6 @@
 				3B7256D125C988F000853C43 /* Extension */,
 				3B7256E825C988F000853C43 /* .gitkeep */,
 				3B7256E925C988F000853C43 /* ReplaceMe.swift */,
-				3B7256EA25C988F000853C43 /* YKMacro */,
 			);
 			name = Classes;
 			path = ../YKUtils/Classes;
@@ -117,6 +115,7 @@
 		3B7256D125C988F000853C43 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				3BA5D4F525CB994700292A8A /* Extension+CAShapeLayer.swift */,
 				3B7256D225C988F000853C43 /* Extension+Double.swift */,
 				3B7256D325C988F000853C43 /* Extension+UIFont.swift */,
 				3B7256D425C988F000853C43 /* Extension+UIImage.swift */,
@@ -141,23 +140,6 @@
 				3B7256E725C988F000853C43 /* Extension+Date.swift */,
 			);
 			path = Extension;
-			sourceTree = "<group>";
-		};
-		3B7256EA25C988F000853C43 /* YKMacro */ = {
-			isa = PBXGroup;
-			children = (
-				3B7256EB25C988F000853C43 /* Const */,
-			);
-			path = YKMacro;
-			sourceTree = "<group>";
-		};
-		3B7256EB25C988F000853C43 /* Const */ = {
-			isa = PBXGroup;
-			children = (
-				3B7256EC25C988F000853C43 /* ConstDevice.swift */,
-				3B7256ED25C988F000853C43 /* Const+Function.swift */,
-			);
-			path = Const;
 			sourceTree = "<group>";
 		};
 		59171028A5E49EC0DC102215 /* Pods */ = {
@@ -517,6 +499,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = "";
 			};
 			name = Debug;
 		};
@@ -562,6 +545,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = "";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -577,7 +561,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -592,7 +576,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};

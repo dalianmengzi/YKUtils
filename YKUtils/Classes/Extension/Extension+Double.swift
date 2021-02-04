@@ -11,7 +11,7 @@ import UIKit
 public extension Double{
 
     //时间秒转分
-    public func YFormatting()->String{
+    func YFormatting()->String{
         if self.isNaN{
             print("=======================\(self)")
             return "0:00"
